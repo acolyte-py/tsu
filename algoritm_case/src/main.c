@@ -35,8 +35,8 @@ void measure_time(void (*func)(int[], int), int arr[], int n){
 
 void bench_testing(void){
     int n = 10000;
-    int arr[10000];
-    int temp[10000];
+    int arr[n];
+    int temp[n];
 
     for(int i = 0; i < n; i++){
         arr[i] = rand() % 1000;
